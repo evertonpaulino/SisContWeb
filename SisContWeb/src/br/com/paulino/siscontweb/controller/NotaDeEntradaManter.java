@@ -1,16 +1,23 @@
 package br.com.paulino.siscontweb.controller;
 
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.math.BigDecimal;
+import java.util.Calendar;
+import java.util.Date;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.hibernate.Hibernate;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import br.com.paulino.siscontweb.model.conexao.HibernateConnection;
 import br.com.paulino.siscontweb.model.dao.NotaDeEntradaDAO;
+import br.com.paulino.siscontweb.model.pojo.NotaDeEntrada;
+import br.com.paulino.siscontweb.util.GerarJSON;
 
 public class NotaDeEntradaManter extends HttpServlet{
 
@@ -48,7 +55,7 @@ public class NotaDeEntradaManter extends HttpServlet{
 	}
 	
 	private int redirecionar(HttpServletRequest req) {
-		if(req.getParameter("operacao").equals("listaConta"))
+		if(req.getParameter("operacao").equals("listaNotas"))
 			return REQUISICAO_LISTAR_NOTAS;
 		else if(req.getParameter("operacao").equals("insert"))
 			return REQUISICAO_SALVAR_NOTAS;
@@ -61,19 +68,92 @@ public class NotaDeEntradaManter extends HttpServlet{
 	}
 
 	private void listarNotas(HttpServletRequest req, HttpServletResponse resp) {
-		dao.exibeTodasAsNotasDeEntrada();
+		GerarJSON gerarJSON = new GerarJSON();
+		
+		JSONObject jsonNota = null;
+		
+		try {
+			
+			jsonNota = gerarJSON.criaDataGridDaNotaDeEntrada(dao.exibeTodasAsNotasDeEntrada());
+			
+		} catch (JSONException e) {
+			e.printStackTrace();
+		}
+
+		resp.setContentType("application/json");
+			  
+		PrintWriter out;
+		
+		try {
+			
+			out = resp.getWriter();
+			out.println(jsonNota);
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+	
+	private void salvarNotas(HttpServletRequest req, HttpServletResponse resp) {
+		NotaDeEntrada entrada = new NotaDeEntrada();
+		
+		entrada.setNe_descricao(req.getParameter("descricao"));
+		
+		Date date = new Date(req.getParameter("dataEmissao"));
+		entrada.setNe_data_emissao(date);
+		
+		entrada.setNe_valor(new BigDecimal(req.getParameter("valor")));
+		entrada.setNe_status(req.getParameter("status"));
+		
+		dao.getEntityManager().getTransaction().begin();
+		dao.insereNota(entrada);
+		dao.getEntityManager().getTransaction().commit();
+		
 	}
 	
 	private void editarNotas(HttpServletRequest req, HttpServletResponse resp) {
-		
-	}
+		NotaDeEntrada entrada = new NotaDeEntrada();
 
-	private void salvarNotas(HttpServletRequest req, HttpServletResponse resp) {
+		entrada.setNe_sequencial(Integer.parseInt(req.getParameter("sequencial")));
+
+		entrada.setNe_descricao(req.getParameter("descricao"));
 		
+		Date date = new Date(req.getParameter("dataEmissao"));
+		entrada.setNe_data_emissao(date);
+		
+		entrada.setNe_valor(new BigDecimal(req.getParameter("valor")));
+		entrada.setNe_status(req.getParameter("status"));
+		
+		dao.getEntityManager().getTransaction().begin();
+		dao.editaNota(entrada);
+		dao.getEntityManager().getTransaction().commit();
 	}
 
 	private void deletarNotas(HttpServletRequest req, HttpServletResponse resp) {
-	
+		int nota = Integer.parseInt(req.getParameter("sequencial"));
+		
+		dao.getEntityManager().getTransaction().begin();
+		dao.deletaNota(nota);
+		dao.getEntityManager().getTransaction().commit();
+		
+		JSONObject jsonNota = new JSONObject();
+		try {
+			jsonNota.put("success", true);
+		} catch (JSONException e) {
+			e.printStackTrace();
+		}
+		
+		resp.setContentType("application/json");
+		
+		PrintWriter out;
+		try {
+			out = resp.getWriter();
+			out.print(jsonNota);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
+	
 }
 

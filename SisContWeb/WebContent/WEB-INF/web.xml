@@ -21,4 +21,14 @@
   	<url-pattern>/PlanoDeContaManter</url-pattern>
   </servlet-mapping>
   
+  <servlet>
+  	<servlet-name>NotaDeEntradaManter</servlet-name>
+  	<servlet-class>br.com.paulino.siscontweb.controller.NotaDeEntradaManter</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>NotaDeEntradaManter</servlet-name>
+  	<url-pattern>/NotaDeEntradaManter</url-pattern>
+  </servlet-mapping>
+  
 </web-app>

@@ -31,15 +31,16 @@
         <div>Double click the row to begin editing.</div>  
     </div>  
       
-    <table id="dg" title="My Users" style="width:700px;height:250px"  
+    <table id="dg" title="My Users" style="width:1200px;height:350px"  
             toolbar="#toolbar" pagination="true" idField="id"  
             rownumbers="true" fitColumns="true" singleSelect="true">  
         <thead>  
             <tr>  
-                <th field="firstname" width="50" editor="{type:'validatebox',options:{required:true}}">First Name</th>  
-                <th field="lastname" width="50" editor="{type:'validatebox',options:{required:true}}">Last Name</th>  
-                <th field="phone" width="50" editor="text">Phone</th>  
-                <th field="email" width="50" editor="{type:'validatebox',options:{validType:'email'}}">Email</th>  
+                <th field="sequencial" width="40" editor="{type:'validatebox',options:{required:true}}">Sequencial</th>  
+                <th field="descricao" width="250" editor="{type:'validatebox',options:{required:true}}">Descricao</th>  
+                <th field="dataEmissao" width="60" editor="datebox">Data de Emissão</th>  
+                <th field="valor" width="50" editor="{type:'validatebox',options:{required:true}}">Valor</th>
+                <th field="status" width="30" editor="text">Status</th>  
             </tr>  
         </thead>  
     </table>  
@@ -52,10 +53,10 @@
     <script type="text/javascript">  
         $(function(){  
             $('#dg').edatagrid({  
-                url: 'get_users.php',  
-                saveUrl: 'save_user.php',  
-                updateUrl: 'update_user.php',  
-                destroyUrl: 'destroy_user.php'  
+                url: 'NotaDeEntradaManter?operacao=listaNotas',
+                saveUrl: 'NotaDeEntradaManter?operacao=insert',  
+                updateUrl: 'NotaDeEntradaManter?operacao=edit',  
+                destroyUrl: 'NotaDeEntradaManter?operacao=delete'  
             });  
         });  
     </script>  
