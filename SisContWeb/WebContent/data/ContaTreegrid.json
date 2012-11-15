@@ -1,0 +1,1986 @@
+[
+  {
+    "conta": "1",
+    "children": [
+      {
+        "conta": "1.1",
+        "children": [
+          {
+            "conta": "1.1.1",
+            "children": [
+              {
+                "conta": "1.1.1.1",
+                "children": [
+                  {
+                    "conta": "1.1.1.1.01",
+                    "descricao": "Caixa Geral",
+                    "codgReduzido": 381
+                  }
+                ],
+                "descricao": "CAIXA",
+                "codgReduzido": 380
+              },
+              {
+                "conta": "1.1.1.2",
+                "children": [
+                  {
+                    "conta": "1.1.1.2.01",
+                    "descricao": "Banco A",
+                    "codgReduzido": 383
+                  }
+                ],
+                "descricao": "BANCOS CONTA MOVIMENTO",
+                "codgReduzido": 382
+              },
+              {
+                "conta": "1.1.1.3",
+                "children": [
+                  {
+                    "conta": "1.1.1.3.01",
+                    "descricao": "Banco A",
+                    "codgReduzido": 385
+                  }
+                ],
+                "descricao": "APLICAÇÕES FINANCEIRAS",
+                "codgReduzido": 384
+              }
+            ],
+            "descricao": "DISPONÍVEL",
+            "codgReduzido": 379
+          },
+          {
+            "conta": "1.1.2",
+            "children": [
+              {
+                "conta": "1.1.2.1",
+                "children": [
+                  {
+                    "conta": "1.1.2.1.01",
+                    "descricao": "Cliente A",
+                    "codgReduzido": 388
+                  }
+                ],
+                "descricao": "CLIENTES",
+                "codgReduzido": 387
+              },
+              {
+                "conta": "1.1.2.2",
+                "children": [
+                  {
+                    "conta": "1.1.2.2.01",
+                    "descricao": "Banco A",
+                    "codgReduzido": 390
+                  }
+                ],
+                "descricao": "(-) DUPLICATAS DESCONTADAS ",
+                "codgReduzido": 389
+              },
+              {
+                "conta": "1.1.2.9",
+                "children": [
+                  {
+                    "conta": "1.1.2.9.01",
+                    "descricao": "Conta A",
+                    "codgReduzido": 392
+                  }
+                ],
+                "descricao": "OUTRAS CONTAS A RECEBER",
+                "codgReduzido": 391
+              }
+            ],
+            "descricao": "CONTAS A RECEBER",
+            "codgReduzido": 386
+          },
+          {
+            "conta": "1.1.3",
+            "children": [
+              {
+                "conta": "1.1.3.1",
+                "children": [
+                  {
+                    "conta": "1.1.3.1.01",
+                    "descricao": "Estoque Inicial",
+                    "codgReduzido": 395
+                  },
+                  {
+                    "conta": "1.1.3.1.02",
+                    "descricao": "Compras",
+                    "codgReduzido": 396
+                  },
+                  {
+                    "conta": "1.1.3.1.03",
+                    "descricao": "Fretes e Carretos",
+                    "codgReduzido": 397
+                  },
+                  {
+                    "conta": "1.1.3.1.04",
+                    "descricao": "ICMS \u2013 Substituição Tributária",
+                    "codgReduzido": 398
+                  },
+                  {
+                    "conta": "1.1.3.1.05",
+                    "descricao": "ICMS \u2013 Antecipado",
+                    "codgReduzido": 399
+                  },
+                  {
+                    "conta": "1.1.3.1.10",
+                    "descricao": " (-) Devoluções de Compras",
+                    "codgReduzido": 400
+                  },
+                  {
+                    "conta": "1.1.3.1.11",
+                    "descricao": " (-) ICMS sobre Compras",
+                    "codgReduzido": 401
+                  },
+                  {
+                    "conta": "1.1.3.1.12",
+                    "descricao": " (-) COFINS sobre Compras",
+                    "codgReduzido": 402
+                  },
+                  {
+                    "conta": "1.1.3.1.13",
+                    "descricao": " (-) PIS sobre Compras",
+                    "codgReduzido": 403
+                  },
+                  {
+                    "conta": "1.1.3.1.19",
+                    "descricao": " (-) Custo das Mercadorias Vendidas",
+                    "codgReduzido": 404
+                  }
+                ],
+                "descricao": "MERCADORIAS PARA REVENDA",
+                "codgReduzido": 394
+              },
+              {
+                "conta": "1.1.3.2",
+                "children": [
+                  {
+                    "conta": "1.1.3.2.01",
+                    "descricao": "Estoque Inicial",
+                    "codgReduzido": 406
+                  },
+                  {
+                    "conta": "1.1.3.2.02",
+                    "descricao": "Produção",
+                    "codgReduzido": 407
+                  },
+                  {
+                    "conta": "1.1.3.2.09",
+                    "descricao": " (-) Custo dos Produtos Vendidos",
+                    "codgReduzido": 408
+                  }
+                ],
+                "descricao": "PRODUTOS ACABADOS",
+                "codgReduzido": 405
+              },
+              {
+                "conta": "1.1.3.3",
+                "children": [
+                  {
+                    "conta": "1.1.3.3.01",
+                    "descricao": "Estoque Inicial",
+                    "codgReduzido": 410
+                  },
+                  {
+                    "conta": "1.1.3.3.02",
+                    "descricao": "Compras",
+                    "codgReduzido": 411
+                  },
+                  {
+                    "conta": "1.1.3.3.03",
+                    "descricao": "Fretes e Carretos",
+                    "codgReduzido": 412
+                  },
+                  {
+                    "conta": "1.1.3.3.04",
+                    "descricao": "ICMS \u2013 Substituição Tributária",
+                    "codgReduzido": 413
+                  },
+                  {
+                    "conta": "1.1.3.3.05",
+                    "descricao": "ICMS \u2013 Antecipado",
+                    "codgReduzido": 414
+                  },
+                  {
+                    "conta": "1.1.3.3.10",
+                    "descricao": " (-) Devoluções de Compras",
+                    "codgReduzido": 415
+                  },
+                  {
+                    "conta": "1.1.3.3.11",
+                    "descricao": " (-) ICMS sobre Compras",
+                    "codgReduzido": 416
+                  },
+                  {
+                    "conta": "1.1.3.3.12",
+                    "descricao": " (-) COFINS sobre Compras",
+                    "codgReduzido": 417
+                  },
+                  {
+                    "conta": "1.1.3.3.13",
+                    "descricao": " (-) PIS sobre Compras",
+                    "codgReduzido": 418
+                  },
+                  {
+                    "conta": "1.1.3.3.19",
+                    "descricao": " (-) Transferência para Consumo",
+                    "codgReduzido": 419
+                  }
+                ],
+                "descricao": "MATÉRIAS-PRIMAS",
+                "codgReduzido": 409
+              },
+              {
+                "conta": "1.1.3.4",
+                "children": [
+                  {
+                    "conta": "1.1.3.4.01",
+                    "descricao": "Estoque Inicial",
+                    "codgReduzido": 421
+                  },
+                  {
+                    "conta": "1.1.3.4.02",
+                    "descricao": "Compras",
+                    "codgReduzido": 422
+                  },
+                  {
+                    "conta": "1.1.3.4.03",
+                    "descricao": "Fretes e Carretos",
+                    "codgReduzido": 423
+                  },
+                  {
+                    "conta": "1.1.3.4.04",
+                    "descricao": "ICMS \u2013 Substituição Tributária",
+                    "codgReduzido": 424
+                  },
+                  {
+                    "conta": "1.1.3.4.05",
+                    "descricao": "ICMS \u2013 Antecipado",
+                    "codgReduzido": 425
+                  },
+                  {
+                    "conta": "1.1.3.4.10",
+                    "descricao": " (-) Devoluções de Compras",
+                    "codgReduzido": 426
+                  },
+                  {
+                    "conta": "1.1.3.4.11",
+                    "descricao": " (-) ICMS sobre Compras",
+                    "codgReduzido": 427
+                  },
+                  {
+                    "conta": "1.1.3.4.12",
+                    "descricao": " (-) COFINS sobre Compras",
+                    "codgReduzido": 428
+                  },
+                  {
+                    "conta": "1.1.3.4.13",
+                    "descricao": " (-) PIS sobre Compras",
+                    "codgReduzido": 429
+                  },
+                  {
+                    "conta": "1.1.3.4.19",
+                    "descricao": " (-) Transferência para Consumo",
+                    "codgReduzido": 430
+                  }
+                ],
+                "descricao": "MATERIAIS DE EMBALAGEM",
+                "codgReduzido": 420
+              },
+              {
+                "conta": "1.1.3.9",
+                "children": [
+                  {
+                    "conta": "1.1.3.9.01",
+                    "descricao": "Estoque Inicial",
+                    "codgReduzido": 432
+                  },
+                  {
+                    "conta": "1.1.3.9.02",
+                    "descricao": "Compras",
+                    "codgReduzido": 433
+                  },
+                  {
+                    "conta": "1.1.3.9.03",
+                    "descricao": "Fretes e Carretos",
+                    "codgReduzido": 434
+                  },
+                  {
+                    "conta": "1.1.3.9.04",
+                    "descricao": "ICMS \u2013 Antecipado",
+                    "codgReduzido": 435
+                  },
+                  {
+                    "conta": "1.1.3.9.10",
+                    "descricao": " (-) Devoluções de Compras",
+                    "codgReduzido": 436
+                  },
+                  {
+                    "conta": "1.1.3.9.19",
+                    "descricao": " (-) Transferência para Consumo ",
+                    "codgReduzido": 437
+                  }
+                ],
+                "descricao": "MATERIAIS DE CONSUMO",
+                "codgReduzido": 431
+              }
+            ],
+            "descricao": "ESTOQUES",
+            "codgReduzido": 393
+          },
+          {
+            "conta": "1.1.4",
+            "children": [
+              {
+                "conta": "1.1.4.1",
+                "children": [
+                  {
+                    "conta": "1.1.4.1.01",
+                    "descricao": "IPI",
+                    "codgReduzido": 440
+                  },
+                  {
+                    "conta": "1.1.4.1.02",
+                    "descricao": "ICMS",
+                    "codgReduzido": 441
+                  },
+                  {
+                    "conta": "1.1.4.1.03",
+                    "descricao": "ICMS Antecipado",
+                    "codgReduzido": 442
+                  },
+                  {
+                    "conta": "1.1.4.1.04",
+                    "descricao": "COFINS",
+                    "codgReduzido": 443
+                  },
+                  {
+                    "conta": "1.1.4.1.05",
+                    "descricao": "PIS",
+                    "codgReduzido": 444
+                  },
+                  {
+                    "conta": "1.1.4.1.06",
+                    "descricao": "IRPJ",
+                    "codgReduzido": 445
+                  },
+                  {
+                    "conta": "1.1.4.1.07",
+                    "descricao": "CSLL",
+                    "codgReduzido": 446
+                  },
+                  {
+                    "conta": "1.1.4.1.08",
+                    "descricao": "IRF",
+                    "codgReduzido": 447
+                  },
+                  {
+                    "conta": "1.1.4.1.09",
+                    "descricao": "ISSF",
+                    "codgReduzido": 448
+                  }
+                ],
+                "descricao": "IMPOSTOS A RECUPERAR",
+                "codgReduzido": 439
+              }
+            ],
+            "descricao": "OUTROS CRÉDITOS",
+            "codgReduzido": 438
+          },
+          {
+            "conta": "1.1.9",
+            "children": [
+              {
+                "conta": "1.1.9.1",
+                "children": [
+                  {
+                    "conta": "1.1.9.1.01",
+                    "descricao": "Seguros a Apropriar",
+                    "codgReduzido": 451
+                  },
+                  {
+                    "conta": "1.1.9.1.02",
+                    "descricao": "Encargos a Apropriar",
+                    "codgReduzido": 452
+                  },
+                  {
+                    "conta": "1.1.9.1.03",
+                    "descricao": "IPTU a Apropriar ",
+                    "codgReduzido": 453
+                  }
+                ],
+                "descricao": "DESPESAS ANTECIPADAS",
+                "codgReduzido": 450
+              }
+            ],
+            "descricao": "DESPESAS DO EXERCÍCIO SEGUINTE",
+            "codgReduzido": 449
+          }
+        ],
+        "descricao": "ATIVO CIRCULANTE",
+        "codgReduzido": 378
+      },
+      {
+        "conta": "1.2",
+        "children": [
+          {
+            "conta": "1.2.1",
+            "children": [
+              {
+                "conta": "1.2.1.1",
+                "children": [
+                  {
+                    "conta": "1.2.1.1.01",
+                    "descricao": "Banco A",
+                    "codgReduzido": 457
+                  }
+                ],
+                "descricao": "APLICAÇÕES FINANCEIRAS",
+                "codgReduzido": 456
+              }
+            ],
+            "descricao": "APLICAÇÕES FINANCEIRAS DE LONGO PRAZO",
+            "codgReduzido": 455
+          },
+          {
+            "conta": "1.2.2",
+            "children": [
+              {
+                "conta": "1.2.2.1",
+                "children": [
+                  {
+                    "conta": "1.2.2.1.01",
+                    "descricao": "Cliente A",
+                    "codgReduzido": 460
+                  }
+                ],
+                "descricao": "CLIENTES",
+                "codgReduzido": 459
+              }
+            ],
+            "descricao": "CONTAS A RECEBER",
+            "codgReduzido": 458
+          }
+        ],
+        "descricao": "ATIVO REALIZÁVEL A LONGO PRAZO",
+        "codgReduzido": 454
+      },
+      {
+        "conta": "1.3",
+        "children": [
+          {
+            "conta": "1.3.1",
+            "children": [
+              {
+                "conta": "1.3.1.1",
+                "children": [
+                  {
+                    "conta": "1.3.1.1.01",
+                    "descricao": "Consórcio Simples A",
+                    "codgReduzido": 464
+                  },
+                  {
+                    "conta": "1.3.1.1.02",
+                    "descricao": "Cooperativa de Crédito A",
+                    "codgReduzido": 465
+                  }
+                ],
+                "descricao": "PARTICIPAÇÕES SOCIETÁRIAS",
+                "codgReduzido": 463
+              }
+            ],
+            "descricao": "INVESTIMENTOS",
+            "codgReduzido": 462
+          },
+          {
+            "conta": "1.3.2",
+            "children": [
+              {
+                "conta": "1.3.2.1",
+                "children": [
+                  {
+                    "conta": "1.3.2.1.01",
+                    "descricao": "Terrenos",
+                    "codgReduzido": 468
+                  },
+                  {
+                    "conta": "1.3.2.1.02",
+                    "descricao": "Construções e Benfeitorias",
+                    "codgReduzido": 469
+                  },
+                  {
+                    "conta": "1.3.2.1.03",
+                    "descricao": "Máquinas, Aparelhos e Equipamentos",
+                    "codgReduzido": 470
+                  },
+                  {
+                    "conta": "1.3.2.1.04",
+                    "descricao": "Ferramentas",
+                    "codgReduzido": 471
+                  },
+                  {
+                    "conta": "1.3.2.1.05",
+                    "descricao": "Matrizes",
+                    "codgReduzido": 472
+                  },
+                  {
+                    "conta": "1.3.2.1.06",
+                    "descricao": "Móveis & Utensílios",
+                    "codgReduzido": 473
+                  },
+                  {
+                    "conta": "1.3.2.1.07",
+                    "descricao": "Equipamentos de Informática",
+                    "codgReduzido": 474
+                  },
+                  {
+                    "conta": "1.3.2.1.08",
+                    "descricao": "Instalações Comerciais",
+                    "codgReduzido": 475
+                  },
+                  {
+                    "conta": "1.3.2.1.09",
+                    "descricao": "Veículos e Acessórios",
+                    "codgReduzido": 476
+                  }
+                ],
+                "descricao": "BENS EM OPERAÇÃO",
+                "codgReduzido": 467
+              },
+              {
+                "conta": "1.3.2.9",
+                "children": [
+                  {
+                    "conta": "1.3.2.9.01",
+                    "descricao": "Construções e Benfeitorias",
+                    "codgReduzido": 478
+                  },
+                  {
+                    "conta": "1.3.2.9.02",
+                    "descricao": "Máquinas, Aparelhos e Equipamentos",
+                    "codgReduzido": 479
+                  },
+                  {
+                    "conta": "1.3.2.9.03",
+                    "descricao": "Ferramentas",
+                    "codgReduzido": 480
+                  },
+                  {
+                    "conta": "1.3.2.9.04",
+                    "descricao": "Matrizes",
+                    "codgReduzido": 481
+                  },
+                  {
+                    "conta": "1.3.2.9.05",
+                    "descricao": "Móveis & Utensílios",
+                    "codgReduzido": 482
+                  },
+                  {
+                    "conta": "1.3.2.9.06",
+                    "descricao": "Equipamentos de Informática",
+                    "codgReduzido": 483
+                  },
+                  {
+                    "conta": "1.3.2.9.07",
+                    "descricao": "Instalações Comerciais",
+                    "codgReduzido": 484
+                  },
+                  {
+                    "conta": "1.3.2.9.08",
+                    "descricao": "Veículos e Acessórios",
+                    "codgReduzido": 485
+                  }
+                ],
+                "descricao": "(-) DEPRECIAÇÕES ACUMULADAS ",
+                "codgReduzido": 477
+              }
+            ],
+            "descricao": "IMOBILIZADO",
+            "codgReduzido": 466
+          },
+          {
+            "conta": "1.3.3",
+            "children": [
+              {
+                "conta": "1.3.3.1",
+                "children": [
+                  {
+                    "conta": "1.3.3.1.01",
+                    "descricao": "Marcas e Patentes",
+                    "codgReduzido": 488
+                  },
+                  {
+                    "conta": "1.3.3.1.02",
+                    "descricao": "Sistemas Aplicativos (softwares)",
+                    "codgReduzido": 489
+                  }
+                ],
+                "descricao": "BENS INCORPÓREOS",
+                "codgReduzido": 487
+              },
+              {
+                "conta": "1.3.3.9",
+                "children": [
+                  {
+                    "conta": "1.3.3.9.01",
+                    "descricao": "Marcas e Patentes",
+                    "codgReduzido": 491
+                  },
+                  {
+                    "conta": "1.3.3.9.02",
+                    "descricao": "Sistemas Aplicativos (softwares)",
+                    "codgReduzido": 492
+                  }
+                ],
+                "descricao": "(-) AMORTIZAÇÕES ACUMULADAS",
+                "codgReduzido": 490
+              }
+            ],
+            "descricao": "INTANGÍVEL",
+            "codgReduzido": 486
+          },
+          {
+            "conta": "1.3.4",
+            "children": [
+              {
+                "conta": "1.3.4.1",
+                "children": [
+                  {
+                    "conta": "1.3.4.1.01",
+                    "descricao": "Gastos de Organização e Administração",
+                    "codgReduzido": 495
+                  },
+                  {
+                    "conta": "1.3.4.1.02",
+                    "descricao": "Projetos e Desenvolvimento de Novos Produtos",
+                    "codgReduzido": 496
+                  }
+                ],
+                "descricao": "GASTOS PRÉ-OPERACIONAIS",
+                "codgReduzido": 494
+              },
+              {
+                "conta": "1.3.4.9",
+                "children": [
+                  {
+                    "conta": "1.3.4.9.01",
+                    "descricao": "Gastos de Organização e Administração",
+                    "codgReduzido": 498
+                  },
+                  {
+                    "conta": "1.3.4.9.02",
+                    "descricao": "Projetos e Desenvolvimento de Novos Produtos",
+                    "codgReduzido": 499
+                  }
+                ],
+                "descricao": "(-) AMORTIZAÇÕES ACUMULADAS",
+                "codgReduzido": 497
+              }
+            ],
+            "descricao": "DIFERIDO",
+            "codgReduzido": 493
+          }
+        ],
+        "descricao": "ATIVO PERMANENTE",
+        "codgReduzido": 461
+      }
+    ],
+    "descricao": "ATIVO",
+    "codgReduzido": 377
+  },
+  {
+    "conta": "2",
+    "children": [
+      {
+        "conta": "2.1",
+        "children": [
+          {
+            "conta": "2.1.1",
+            "children": [
+              {
+                "conta": "2.1.1.1",
+                "children": [
+                  {
+                    "conta": "2.1.1.1.01",
+                    "descricao": "Salários",
+                    "codgReduzido": 504
+                  },
+                  {
+                    "conta": "2.1.1.1.02",
+                    "descricao": "Férias a Pagar",
+                    "codgReduzido": 505
+                  },
+                  {
+                    "conta": "2.1.1.1.03",
+                    "descricao": "13º Salário a Pagar",
+                    "codgReduzido": 506
+                  }
+                ],
+                "descricao": "SALÁRIOS A PAGAR",
+                "codgReduzido": 503
+              },
+              {
+                "conta": "2.1.1.2",
+                "children": [
+                  {
+                    "conta": "2.1.1.2.01",
+                    "descricao": "INSS a Recolher",
+                    "codgReduzido": 508
+                  },
+                  {
+                    "conta": "2.1.1.2.02",
+                    "descricao": "FGTS a Recolher",
+                    "codgReduzido": 509
+                  },
+                  {
+                    "conta": "2.1.1.2.03",
+                    "descricao": "Contribuição Sindical a Recolher",
+                    "codgReduzido": 510
+                  }
+                ],
+                "descricao": "OBRIGAÇÕES TRABALHISTAS",
+                "codgReduzido": 507
+              },
+              {
+                "conta": "2.1.1.3",
+                "children": [
+                  {
+                    "conta": "2.1.1.3.01",
+                    "descricao": "Simples Nacional a Recolher",
+                    "codgReduzido": 512
+                  },
+                  {
+                    "conta": "2.1.1.3.02",
+                    "descricao": "IPI a Recolher",
+                    "codgReduzido": 513
+                  },
+                  {
+                    "conta": "2.1.1.3.03",
+                    "descricao": "ICMS a Recolher",
+                    "codgReduzido": 514
+                  },
+                  {
+                    "conta": "2.1.1.3.04",
+                    "descricao": "COFINS a Recolher",
+                    "codgReduzido": 515
+                  },
+                  {
+                    "conta": "2.1.1.3.05",
+                    "descricao": "PIS a Recolher",
+                    "codgReduzido": 516
+                  },
+                  {
+                    "conta": "2.1.1.3.06",
+                    "descricao": "IRPJ a Recolher",
+                    "codgReduzido": 517
+                  },
+                  {
+                    "conta": "2.1.1.3.07",
+                    "descricao": "CSLL a Recolher",
+                    "codgReduzido": 518
+                  },
+                  {
+                    "conta": "2.1.1.3.08",
+                    "descricao": "ISS a Recolher",
+                    "codgReduzido": 519
+                  },
+                  {
+                    "conta": "2.1.1.3.09",
+                    "descricao": "IRF a Recolher",
+                    "codgReduzido": 520
+                  },
+                  {
+                    "conta": "2.1.1.3.10",
+                    "descricao": "ISSF a Recolher",
+                    "codgReduzido": 521
+                  },
+                  {
+                    "conta": "2.1.1.3.11",
+                    "descricao": "ICMS Substituição Tributária a Recolher",
+                    "codgReduzido": 522
+                  }
+                ],
+                "descricao": "OBRIGAÇÕES TRIBUTÁRIAS",
+                "codgReduzido": 511
+              },
+              {
+                "conta": "2.1.1.4",
+                "children": [
+                  {
+                    "conta": "2.1.1.4.01",
+                    "descricao": "Fornecedor A",
+                    "codgReduzido": 524
+                  }
+                ],
+                "descricao": "FORNECEDORES",
+                "codgReduzido": 523
+              },
+              {
+                "conta": "2.1.1.5",
+                "children": [
+                  {
+                    "conta": "2.1.1.5.01",
+                    "descricao": "Banco A",
+                    "codgReduzido": 526
+                  }
+                ],
+                "descricao": "EMPRÉSTIMOS BANCÁRIOS",
+                "codgReduzido": 525
+              },
+              {
+                "conta": "2.1.1.6",
+                "children": [
+                  {
+                    "conta": "2.1.1.6.01",
+                    "descricao": "Juros Passivos",
+                    "codgReduzido": 528
+                  }
+                ],
+                "descricao": "(-) ENCARGOS FINANCEIROS A TRANSCORRER",
+                "codgReduzido": 527
+              },
+              {
+                "conta": "2.1.1.9",
+                "children": [
+                  {
+                    "conta": "2.1.1.9.01",
+                    "descricao": "Aluguéis a Pagar",
+                    "codgReduzido": 530
+                  },
+                  {
+                    "conta": "2.1.1.9.02",
+                    "descricao": "Energia Elétrica a Pagar",
+                    "codgReduzido": 531
+                  },
+                  {
+                    "conta": "2.1.1.9.03",
+                    "descricao": "Telefone a Pagar",
+                    "codgReduzido": 532
+                  },
+                  {
+                    "conta": "2.1.1.9.04",
+                    "descricao": "Água e Esgotos a Pagar",
+                    "codgReduzido": 533
+                  },
+                  {
+                    "conta": "2.1.1.9.05",
+                    "descricao": "Pró-labore a Pagar",
+                    "codgReduzido": 534
+                  }
+                ],
+                "descricao": "OUTRAS CONTAS A PAGAR",
+                "codgReduzido": 529
+              }
+            ],
+            "descricao": "CONTAS A PAGAR",
+            "codgReduzido": 502
+          }
+        ],
+        "descricao": "CIRCULANTE",
+        "codgReduzido": 501
+      },
+      {
+        "conta": "2.2",
+        "children": [
+          {
+            "conta": "2.2.1",
+            "children": [
+              {
+                "conta": "2.2.1.1",
+                "children": [
+                  {
+                    "conta": "2.2.1.1.01",
+                    "descricao": "Banco A",
+                    "codgReduzido": 538
+                  }
+                ],
+                "descricao": "FINANCIAMENTOS BANCÁRIOS",
+                "codgReduzido": 537
+              }
+            ],
+            "descricao": "CONTAS A PAGAR",
+            "codgReduzido": 536
+          }
+        ],
+        "descricao": "EXIGÍVEL A LONGO PRAZO",
+        "codgReduzido": 535
+      },
+      {
+        "conta": "2.3",
+        "children": [
+          {
+            "conta": "2.3.1",
+            "children": [
+              {
+                "conta": "2.3.1.1",
+                "children": [
+                  {
+                    "conta": "2.3.1.1.01",
+                    "descricao": "Receitas de Obras em Andamento",
+                    "codgReduzido": 542
+                  }
+                ],
+                "descricao": "RECEITAS DIFERIDAS",
+                "codgReduzido": 541
+              },
+              {
+                "conta": "2.3.1.2",
+                "children": [
+                  {
+                    "conta": "2.3.1.2.01",
+                    "descricao": "Custos de Obras em Andamento",
+                    "codgReduzido": 544
+                  }
+                ],
+                "descricao": "(-) CUSTOS DIFERIDOS",
+                "codgReduzido": 543
+              },
+              {
+                "conta": "2.3.1.3",
+                "children": [
+                  {
+                    "conta": "2.3.1.3.01",
+                    "descricao": "Despesas de Obras em Andamento",
+                    "codgReduzido": 546
+                  }
+                ],
+                "descricao": "(-) DESPESAS DIFERIDAS",
+                "codgReduzido": 545
+              }
+            ],
+            "descricao": "RESULTADOS DIFERIDOS",
+            "codgReduzido": 540
+          }
+        ],
+        "descricao": "RESULTADOS DE EXERCÍCIOS FUTUROS",
+        "codgReduzido": 539
+      },
+      {
+        "conta": "2.4",
+        "children": [
+          {
+            "conta": "2.4.1",
+            "children": [
+              {
+                "conta": "2.4.1.1",
+                "children": [
+                  {
+                    "conta": "2.4.1.1.01",
+                    "descricao": "Capital Nacional",
+                    "codgReduzido": 550
+                  }
+                ],
+                "descricao": "CAPITAL SOCIAL SUBSCRITO",
+                "codgReduzido": 549
+              },
+              {
+                "conta": "2.4.1.2",
+                "children": [
+                  {
+                    "conta": "2.4.1.2.01",
+                    "descricao": "Sócio A",
+                    "codgReduzido": 552
+                  }
+                ],
+                "descricao": "(-) CAPITAL SOCIAL A REALIZAR",
+                "codgReduzido": 551
+              }
+            ],
+            "descricao": "CAPITAL SOCIAL REALIZADO",
+            "codgReduzido": 548
+          },
+          {
+            "conta": "2.4.2",
+            "children": [
+              {
+                "conta": "2.4.2.1",
+                "children": [
+                  {
+                    "conta": "2.4.2.1.01",
+                    "descricao": "Reserva de Incentivos Fiscais",
+                    "codgReduzido": 555
+                  }
+                ],
+                "descricao": "RESERVAS DE CAPITAL",
+                "codgReduzido": 554
+              },
+              {
+                "conta": "2.4.2.2",
+                "children": [
+                  {
+                    "conta": "2.4.2.2.01",
+                    "descricao": "Variações de Elementos Ativos",
+                    "codgReduzido": 557
+                  },
+                  {
+                    "conta": "2.4.2.2.02",
+                    "descricao": "Variações de Elementos Passivos",
+                    "codgReduzido": 558
+                  }
+                ],
+                "descricao": "AJUSTES DE AVALIAÇÃO PATRIMONIAL",
+                "codgReduzido": 556
+              },
+              {
+                "conta": "2.4.2.3",
+                "children": [
+                  {
+                    "conta": "2.4.2.3.01",
+                    "descricao": "Retenções de Lucros",
+                    "codgReduzido": 560
+                  },
+                  {
+                    "conta": "2.4.2.3.02",
+                    "descricao": "Lucros a Realizar",
+                    "codgReduzido": 561
+                  }
+                ],
+                "descricao": "RESERVAS DE LUCROS",
+                "codgReduzido": 559
+              }
+            ],
+            "descricao": "RESERVAS",
+            "codgReduzido": 553
+          },
+          {
+            "conta": "2.4.3",
+            "children": [
+              {
+                "conta": "2.4.3.1",
+                "children": [
+                  {
+                    "conta": "2.4.3.1.01",
+                    "descricao": "Quotas de Capital Realizado",
+                    "codgReduzido": 564
+                  }
+                ],
+                "descricao": "QUOTAS EM TESOURARIA",
+                "codgReduzido": 563
+              }
+            ],
+            "descricao": "QUOTAS EM TESOURARIA",
+            "codgReduzido": 562
+          },
+          {
+            "conta": "2.4.4",
+            "children": [
+              {
+                "conta": "2.4.4.1",
+                "children": [
+                  {
+                    "conta": "2.4.4.1.01",
+                    "descricao": "Lucros Acumulados",
+                    "codgReduzido": 567
+                  },
+                  {
+                    "conta": "2.4.4.1.02",
+                    "descricao": "Prejuízos Acumulados",
+                    "codgReduzido": 568
+                  }
+                ],
+                "descricao": "LUCROS OU PREJUIZOS ACUMULADOS",
+                "codgReduzido": 566
+              }
+            ],
+            "descricao": "LUCROS OU PREJUIZOS ACUMULADOS",
+            "codgReduzido": 565
+          }
+        ],
+        "descricao": "PATRIMÔNIO LÍQUIDO",
+        "codgReduzido": 547
+      }
+    ],
+    "descricao": "PASSIVO",
+    "codgReduzido": 500
+  },
+  {
+    "conta": "3",
+    "children": [
+      {
+        "conta": "3.1",
+        "children": [
+          {
+            "conta": "3.1.1",
+            "children": [
+              {
+                "conta": "3.1.1.1",
+                "children": [
+                  {
+                    "conta": "3.1.1.1.01",
+                    "descricao": "Matérias-primas",
+                    "codgReduzido": 573
+                  },
+                  {
+                    "conta": "3.1.1.1.02",
+                    "descricao": "Materiais de embalagem",
+                    "codgReduzido": 574
+                  }
+                ],
+                "descricao": "INSUMOS",
+                "codgReduzido": 572
+              },
+              {
+                "conta": "3.1.1.2",
+                "children": [
+                  {
+                    "conta": "3.1.1.2.01",
+                    "descricao": "Salários",
+                    "codgReduzido": 576
+                  },
+                  {
+                    "conta": "3.1.1.2.02",
+                    "descricao": "Encargos Sociais",
+                    "codgReduzido": 577
+                  },
+                  {
+                    "conta": "3.1.1.2.03",
+                    "descricao": "Vale Transporte",
+                    "codgReduzido": 578
+                  },
+                  {
+                    "conta": "3.1.1.2.04",
+                    "descricao": "Refeições",
+                    "codgReduzido": 579
+                  },
+                  {
+                    "conta": "3.1.1.2.05",
+                    "descricao": "Uniformes",
+                    "codgReduzido": 580
+                  },
+                  {
+                    "conta": "3.1.1.2.06",
+                    "descricao": "Assistência Médica",
+                    "codgReduzido": 581
+                  }
+                ],
+                "descricao": "MÃO-DE-OBRA DIRETA",
+                "codgReduzido": 575
+              },
+              {
+                "conta": "3.1.1.3",
+                "children": [
+                  {
+                    "conta": "3.1.1.3.01",
+                    "descricao": "Materiais de consumo",
+                    "codgReduzido": 583
+                  }
+                ],
+                "descricao": "OUTROS CUSTOS DIRETOS",
+                "codgReduzido": 582
+              },
+              {
+                "conta": "3.1.1.9",
+                "children": [
+                  {
+                    "conta": "3.1.1.9.01",
+                    "descricao": "Salários",
+                    "codgReduzido": 585
+                  },
+                  {
+                    "conta": "3.1.1.9.02",
+                    "descricao": "Encargos Sociais",
+                    "codgReduzido": 586
+                  },
+                  {
+                    "conta": "3.1.1.9.03",
+                    "descricao": "Vale Transporte",
+                    "codgReduzido": 587
+                  },
+                  {
+                    "conta": "3.1.1.9.04",
+                    "descricao": "Refeições",
+                    "codgReduzido": 588
+                  },
+                  {
+                    "conta": "3.1.1.9.05",
+                    "descricao": "Uniformes",
+                    "codgReduzido": 589
+                  },
+                  {
+                    "conta": "3.1.1.9.06",
+                    "descricao": "Assistência Médica",
+                    "codgReduzido": 590
+                  },
+                  {
+                    "conta": "3.1.1.9.10",
+                    "descricao": "Energia elétrica",
+                    "codgReduzido": 591
+                  },
+                  {
+                    "conta": "3.1.1.9.11",
+                    "descricao": "Manutenção",
+                    "codgReduzido": 592
+                  },
+                  {
+                    "conta": "3.1.1.9.12",
+                    "descricao": "Aluguel de bens imóveis",
+                    "codgReduzido": 593
+                  },
+                  {
+                    "conta": "3.1.1.9.13",
+                    "descricao": "Locação de bens móveis",
+                    "codgReduzido": 594
+                  },
+                  {
+                    "conta": "3.1.1.9.14",
+                    "descricao": "Água e Esgoto",
+                    "codgReduzido": 595
+                  },
+                  {
+                    "conta": "3.1.1.9.15",
+                    "descricao": "Materiais de consumo",
+                    "codgReduzido": 596
+                  },
+                  {
+                    "conta": "3.1.1.9.90",
+                    "descricao": "Prêmios de Seguro",
+                    "codgReduzido": 597
+                  },
+                  {
+                    "conta": "3.1.1.9.91",
+                    "descricao": "Depreciação e Amortização",
+                    "codgReduzido": 598
+                  }
+                ],
+                "descricao": "CUSTOS INDIRETOS DE FABRICAÇÃO",
+                "codgReduzido": 584
+              }
+            ],
+            "descricao": "CUSTOS INDUSTRIAIS",
+            "codgReduzido": 571
+          },
+          {
+            "conta": "3.1.2",
+            "children": [
+              {
+                "conta": "3.1.2.1",
+                "children": [
+                  {
+                    "conta": "3.1.2.1.01",
+                    "descricao": "Materiais Aplicados",
+                    "codgReduzido": 601
+                  }
+                ],
+                "descricao": "CONSUMO DE MATERIAIS",
+                "codgReduzido": 600
+              },
+              {
+                "conta": "3.1.2.2",
+                "children": [
+                  {
+                    "conta": "3.1.2.2.01",
+                    "descricao": "Salários",
+                    "codgReduzido": 603
+                  },
+                  {
+                    "conta": "3.1.2.2.02",
+                    "descricao": "Encargos Sociais",
+                    "codgReduzido": 604
+                  },
+                  {
+                    "conta": "3.1.2.2.03",
+                    "descricao": "Vale Transporte",
+                    "codgReduzido": 605
+                  },
+                  {
+                    "conta": "3.1.2.2.04",
+                    "descricao": "Refeições",
+                    "codgReduzido": 606
+                  },
+                  {
+                    "conta": "3.1.2.2.05",
+                    "descricao": "Uniformes",
+                    "codgReduzido": 607
+                  },
+                  {
+                    "conta": "3.1.2.2.06",
+                    "descricao": "Assistência Médica",
+                    "codgReduzido": 608
+                  }
+                ],
+                "descricao": "MÃO-DE-OBRA DIRETA",
+                "codgReduzido": 602
+              },
+              {
+                "conta": "3.1.2.3",
+                "children": [
+                  {
+                    "conta": "3.1.2.3.01",
+                    "descricao": "Materiais de consumo",
+                    "codgReduzido": 610
+                  }
+                ],
+                "descricao": "OUTROS CUSTOS DIRETOS",
+                "codgReduzido": 609
+              },
+              {
+                "conta": "3.1.2.9",
+                "children": [
+                  {
+                    "conta": "3.1.2.9.01",
+                    "descricao": "Salários",
+                    "codgReduzido": 612
+                  },
+                  {
+                    "conta": "3.1.2.9.02",
+                    "descricao": "Encargos Sociais",
+                    "codgReduzido": 613
+                  },
+                  {
+                    "conta": "3.1.2.9.03",
+                    "descricao": "Vale Transporte",
+                    "codgReduzido": 614
+                  },
+                  {
+                    "conta": "3.1.2.9.04",
+                    "descricao": "Refeições",
+                    "codgReduzido": 615
+                  },
+                  {
+                    "conta": "3.1.2.9.05",
+                    "descricao": "Uniformes",
+                    "codgReduzido": 616
+                  },
+                  {
+                    "conta": "3.1.2.9.06",
+                    "descricao": "Assistência Médica",
+                    "codgReduzido": 617
+                  },
+                  {
+                    "conta": "3.1.2.9.10",
+                    "descricao": "Energia elétrica",
+                    "codgReduzido": 618
+                  },
+                  {
+                    "conta": "3.1.2.9.11",
+                    "descricao": "Manutenção",
+                    "codgReduzido": 619
+                  },
+                  {
+                    "conta": "3.1.2.9.12",
+                    "descricao": "Aluguel de bens imóveis",
+                    "codgReduzido": 620
+                  },
+                  {
+                    "conta": "3.1.2.9.13",
+                    "descricao": "Locação de bens móveis",
+                    "codgReduzido": 621
+                  },
+                  {
+                    "conta": "3.1.2.9.14",
+                    "descricao": "Água e Esgoto",
+                    "codgReduzido": 622
+                  },
+                  {
+                    "conta": "3.1.2.9.15",
+                    "descricao": "Materiais de consumo",
+                    "codgReduzido": 623
+                  },
+                  {
+                    "conta": "3.1.2.9.16",
+                    "descricao": "Ferramentas",
+                    "codgReduzido": 624
+                  },
+                  {
+                    "conta": "3.1.2.9.90",
+                    "descricao": "Prêmios de Seguro",
+                    "codgReduzido": 625
+                  },
+                  {
+                    "conta": "3.1.2.9.91",
+                    "descricao": "Depreciação e Amortização",
+                    "codgReduzido": 626
+                  }
+                ],
+                "descricao": "CUSTOS INDIRETOS DE PRESTAÇÃO DE SERVIÇOS",
+                "codgReduzido": 611
+              }
+            ],
+            "descricao": "CUSTOS DE PRESTAÇÃO DE SERVIÇOS",
+            "codgReduzido": 599
+          }
+        ],
+        "descricao": "CUSTOS DE PRODUÇÃO",
+        "codgReduzido": 570
+      }
+    ],
+    "descricao": "CUSTOS",
+    "codgReduzido": 569
+  },
+  {
+    "conta": "4",
+    "children": [
+      {
+        "conta": "4.1",
+        "children": [
+          {
+            "conta": "4.1.1",
+            "children": [
+              {
+                "conta": "4.1.1.1",
+                "children": [
+                  {
+                    "conta": "4.1.1.1.01",
+                    "descricao": "De Bens",
+                    "codgReduzido": 631
+                  },
+                  {
+                    "conta": "4.1.1.1.02",
+                    "descricao": "De Serviços",
+                    "codgReduzido": 632
+                  }
+                ],
+                "descricao": "PRODUÇÂO",
+                "codgReduzido": 630
+              }
+            ],
+            "descricao": "PRODUÇÂO",
+            "codgReduzido": 629
+          }
+        ],
+        "descricao": "PRODUÇÂO",
+        "codgReduzido": 628
+      }
+    ],
+    "descricao": "PRODUÇÃO",
+    "codgReduzido": 627
+  },
+  {
+    "conta": "5",
+    "children": [
+      {
+        "conta": "5.1",
+        "children": [
+          {
+            "conta": "5.1.1",
+            "children": [
+              {
+                "conta": "5.1.1.1",
+                "children": [
+                  {
+                    "conta": "5.1.1.1.01",
+                    "descricao": "Custo das Mercadorias Vendidas",
+                    "codgReduzido": 637
+                  },
+                  {
+                    "conta": "5.1.1.1.02",
+                    "descricao": "Custo dos Produtos Vendidos",
+                    "codgReduzido": 638
+                  },
+                  {
+                    "conta": "5.1.1.1.03",
+                    "descricao": "Custo dos Serviços Prestados",
+                    "codgReduzido": 639
+                  }
+                ],
+                "descricao": "CUSTO DAS VENDAS",
+                "codgReduzido": 636
+              },
+              {
+                "conta": "5.1.1.2",
+                "children": [
+                  {
+                    "conta": "5.1.1.2.01",
+                    "descricao": "Salários",
+                    "codgReduzido": 641
+                  },
+                  {
+                    "conta": "5.1.1.2.02",
+                    "descricao": "Encargos Sociais",
+                    "codgReduzido": 642
+                  },
+                  {
+                    "conta": "5.1.1.2.03",
+                    "descricao": "Vale Transporte",
+                    "codgReduzido": 643
+                  },
+                  {
+                    "conta": "5.1.1.2.04",
+                    "descricao": "Refeições",
+                    "codgReduzido": 644
+                  },
+                  {
+                    "conta": "5.1.1.2.05",
+                    "descricao": "Uniformes",
+                    "codgReduzido": 645
+                  },
+                  {
+                    "conta": "5.1.1.2.06",
+                    "descricao": "Assistência Médica",
+                    "codgReduzido": 646
+                  }
+                ],
+                "descricao": "DESPESAS COM PESSOAL",
+                "codgReduzido": 640
+              },
+              {
+                "conta": "5.1.1.3",
+                "children": [
+                  {
+                    "conta": "5.1.1.3.01",
+                    "descricao": "Pró-labore",
+                    "codgReduzido": 648
+                  },
+                  {
+                    "conta": "5.1.1.3.02",
+                    "descricao": "Aluguel de Imóveis",
+                    "codgReduzido": 649
+                  },
+                  {
+                    "conta": "5.1.1.3.03",
+                    "descricao": "Locação de Bens",
+                    "codgReduzido": 650
+                  },
+                  {
+                    "conta": "5.1.1.3.04",
+                    "descricao": "Energia Elétrica",
+                    "codgReduzido": 651
+                  },
+                  {
+                    "conta": "5.1.1.3.05",
+                    "descricao": "Telefone e Internet",
+                    "codgReduzido": 652
+                  },
+                  {
+                    "conta": "5.1.1.3.06",
+                    "descricao": "Água e Esgoto",
+                    "codgReduzido": 653
+                  },
+                  {
+                    "conta": "5.1.1.3.07",
+                    "descricao": "Tarifas Bancárias",
+                    "codgReduzido": 654
+                  },
+                  {
+                    "conta": "5.1.1.3.08",
+                    "descricao": "Material de Consumo",
+                    "codgReduzido": 655
+                  },
+                  {
+                    "conta": "5.1.1.3.09",
+                    "descricao": "Material de Expediente",
+                    "codgReduzido": 656
+                  },
+                  {
+                    "conta": "5.1.1.3.10",
+                    "descricao": "Correios",
+                    "codgReduzido": 657
+                  }
+                ],
+                "descricao": "DESPESAS ADMINISTRATIVAS",
+                "codgReduzido": 647
+              },
+              {
+                "conta": "5.1.1.4",
+                "children": [
+                  {
+                    "conta": "5.1.1.4.01",
+                    "descricao": "Fretes e Carretos",
+                    "codgReduzido": 659
+                  },
+                  {
+                    "conta": "5.1.1.4.02",
+                    "descricao": "Comissões e Corretagens",
+                    "codgReduzido": 660
+                  },
+                  {
+                    "conta": "5.1.1.4.03",
+                    "descricao": "Despesas de Viagens e Estadas",
+                    "codgReduzido": 661
+                  }
+                ],
+                "descricao": "DESPESAS DE COMERCIALIZAÇÃO",
+                "codgReduzido": 658
+              },
+              {
+                "conta": "5.1.1.5",
+                "children": [
+                  {
+                    "conta": "5.1.1.5.01",
+                    "descricao": "IPTU",
+                    "codgReduzido": 663
+                  },
+                  {
+                    "conta": "5.1.1.5.02",
+                    "descricao": "IPVA",
+                    "codgReduzido": 664
+                  },
+                  {
+                    "conta": "5.1.1.5.03",
+                    "descricao": "IOF",
+                    "codgReduzido": 665
+                  },
+                  {
+                    "conta": "5.1.1.5.04",
+                    "descricao": "Multas Fiscais",
+                    "codgReduzido": 666
+                  },
+                  {
+                    "conta": "5.1.1.5.05",
+                    "descricao": "COFINS s/Outras Receitas",
+                    "codgReduzido": 667
+                  },
+                  {
+                    "conta": "5.1.1.5.06",
+                    "descricao": "PIS s/Outras Receitas",
+                    "codgReduzido": 668
+                  },
+                  {
+                    "conta": "5.1.1.5.07",
+                    "descricao": "IRPJ s/Aplicações Financeiras",
+                    "codgReduzido": 669
+                  },
+                  {
+                    "conta": "5.1.1.5.08",
+                    "descricao": "Impostos e Taxas Diversas",
+                    "codgReduzido": 670
+                  }
+                ],
+                "descricao": "DESPESAS TRIBUTÁRIAS",
+                "codgReduzido": 662
+              },
+              {
+                "conta": "5.1.1.6",
+                "children": [
+                  {
+                    "conta": "5.1.1.6.01",
+                    "descricao": "Juros Passivos",
+                    "codgReduzido": 672
+                  },
+                  {
+                    "conta": "5.1.1.6.02",
+                    "descricao": "Juros de Mora",
+                    "codgReduzido": 673
+                  },
+                  {
+                    "conta": "5.1.1.6.03",
+                    "descricao": "Descontos Concedidos",
+                    "codgReduzido": 674
+                  },
+                  {
+                    "conta": "5.1.1.6.04",
+                    "descricao": "Variações Monetárias Passivas",
+                    "codgReduzido": 675
+                  },
+                  {
+                    "conta": "5.1.1.6.05",
+                    "descricao": "Variações Cambiais Passivas",
+                    "codgReduzido": 676
+                  }
+                ],
+                "descricao": "DESPESAS FINANCEIRAS",
+                "codgReduzido": 671
+              },
+              {
+                "conta": "5.1.1.7",
+                "children": [
+                  {
+                    "conta": "5.1.1.7.01",
+                    "descricao": "Depreciação",
+                    "codgReduzido": 678
+                  },
+                  {
+                    "conta": "5.1.1.7.02",
+                    "descricao": "Amortização",
+                    "codgReduzido": 679
+                  }
+                ],
+                "descricao": "DEPRECIAÇÃO E AMORTIZAÇÃO",
+                "codgReduzido": 677
+              },
+              {
+                "conta": "5.1.1.8",
+                "children": [
+                  {
+                    "conta": "5.1.1.8.01",
+                    "descricao": "Perdas por Insolvência",
+                    "codgReduzido": 681
+                  }
+                ],
+                "descricao": "PERDAS DIVERSAS",
+                "codgReduzido": 680
+              }
+            ],
+            "descricao": "DESPESAS OPERACIONAIS",
+            "codgReduzido": 635
+          },
+          {
+            "conta": "5.1.2",
+            "children": [
+              {
+                "conta": "5.1.2.1",
+                "children": [
+                  {
+                    "conta": "5.1.2.1.01",
+                    "descricao": "Multas de Trânsito",
+                    "codgReduzido": 684
+                  },
+                  {
+                    "conta": "5.1.2.1.02",
+                    "descricao": "Multas Fiscais",
+                    "codgReduzido": 685
+                  },
+                  {
+                    "conta": "5.1.2.1.03",
+                    "descricao": "Gastos com Festividades",
+                    "codgReduzido": 686
+                  }
+                ],
+                "descricao": "DESPESAS DIVERSAS",
+                "codgReduzido": 683
+              }
+            ],
+            "descricao": "DESPESAS NÃO OPERACIONAIS",
+            "codgReduzido": 682
+          }
+        ],
+        "descricao": "DESPESAS DIVERSAS",
+        "codgReduzido": 634
+      }
+    ],
+    "descricao": "DESPESAS",
+    "codgReduzido": 633
+  },
+  {
+    "conta": "6",
+    "children": [
+      {
+        "conta": "6.1",
+        "children": [
+          {
+            "conta": "6.1.1",
+            "children": [
+              {
+                "conta": "6.1.1.1",
+                "children": [
+                  {
+                    "conta": "6.1.1.1.01",
+                    "descricao": "Vendas de Mercadorias",
+                    "codgReduzido": 691
+                  },
+                  {
+                    "conta": "6.1.1.1.02",
+                    "descricao": "Vendas de Mercadorias com Substituição Tributária",
+                    "codgReduzido": 692
+                  },
+                  {
+                    "conta": "6.1.1.1.03",
+                    "descricao": "Vendas de Mercadorias para o Exterior",
+                    "codgReduzido": 693
+                  },
+                  {
+                    "conta": "6.1.1.1.10",
+                    "descricao": "Vendas de Produtos de Fabricação Própria",
+                    "codgReduzido": 694
+                  },
+                  {
+                    "conta": "6.1.1.1.11",
+                    "descricao": "Vendas de Produtos de Fabricação Própria com Substituição Tributária",
+                    "codgReduzido": 695
+                  },
+                  {
+                    "conta": "6.1.1.1.12",
+                    "descricao": "Vendas de Produtos de Fabricação Própria para o Exterior",
+                    "codgReduzido": 696
+                  },
+                  {
+                    "conta": "6.1.1.1.20",
+                    "descricao": "Vendas de Serviços Prestados",
+                    "codgReduzido": 697
+                  },
+                  {
+                    "conta": "6.1.1.1.21",
+                    "descricao": "Vendas de Serviços Prestados com Substituição Tributária",
+                    "codgReduzido": 698
+                  },
+                  {
+                    "conta": "6.1.1.1.22",
+                    "descricao": "Vendas de Serviços Prestados para o Exterior",
+                    "codgReduzido": 699
+                  }
+                ],
+                "descricao": "RECEITA BRUTA DE VENDAS",
+                "codgReduzido": 690
+              },
+              {
+                "conta": "6.1.1.2",
+                "children": [
+                  {
+                    "conta": "6.1.1.2.01",
+                    "descricao": "Simples Nacional",
+                    "codgReduzido": 701
+                  },
+                  {
+                    "conta": "6.1.1.2.02",
+                    "descricao": "ISS Substituição Tributária",
+                    "codgReduzido": 702
+                  },
+                  {
+                    "conta": "6.1.1.2.03",
+                    "descricao": "ICMS",
+                    "codgReduzido": 703
+                  },
+                  {
+                    "conta": "6.1.1.2.04",
+                    "descricao": "ISS",
+                    "codgReduzido": 704
+                  },
+                  {
+                    "conta": "6.1.1.2.05",
+                    "descricao": "COFINS",
+                    "codgReduzido": 705
+                  },
+                  {
+                    "conta": "6.1.1.2.06",
+                    "descricao": "PIS",
+                    "codgReduzido": 706
+                  },
+                  {
+                    "conta": "6.1.1.2.09",
+                    "descricao": "Devoluções de Vendas",
+                    "codgReduzido": 707
+                  }
+                ],
+                "descricao": "(-) DEDUÇÕES DA RECEITA BRUTA",
+                "codgReduzido": 700
+              },
+              {
+                "conta": "6.1.1.3",
+                "children": [
+                  {
+                    "conta": "6.1.1.3.01",
+                    "descricao": "Juros Ativos",
+                    "codgReduzido": 709
+                  },
+                  {
+                    "conta": "6.1.1.3.02",
+                    "descricao": "Rendimentos de Aplicações Financeiras",
+                    "codgReduzido": 710
+                  }
+                ],
+                "descricao": "RECEITAS FINANCEIRAS",
+                "codgReduzido": 708
+              },
+              {
+                "conta": "6.1.1.4",
+                "children": [
+                  {
+                    "conta": "6.1.1.4.01",
+                    "descricao": "Recuperação de Despesas",
+                    "codgReduzido": 712
+                  }
+                ],
+                "descricao": "RECEITAS DIVERSAS",
+                "codgReduzido": 711
+              }
+            ],
+            "descricao": "RECEITAS OPERACIONAIS",
+            "codgReduzido": 689
+          },
+          {
+            "conta": "6.1.2",
+            "children": [
+              {
+                "conta": "6.1.2.1",
+                "children": [
+                  {
+                    "conta": "6.1.2.1.01",
+                    "descricao": "Ganhos de Capital",
+                    "codgReduzido": 715
+                  },
+                  {
+                    "conta": "6.1.2.1.02",
+                    "descricao": "Outras Receitas",
+                    "codgReduzido": 716
+                  }
+                ],
+                "descricao": "RECEITAS DIVERSAS",
+                "codgReduzido": 714
+              }
+            ],
+            "descricao": "RECEITAS NÃO OPERACIONAIS",
+            "codgReduzido": 713
+          }
+        ],
+        "descricao": "RECEITAS DIVERSAS",
+        "codgReduzido": 688
+      }
+    ],
+    "descricao": "RECEITAS",
+    "codgReduzido": 687
+  },
+  {
+    "conta": "7",
+    "children": [
+      {
+        "conta": "7.1",
+        "children": [
+          {
+            "conta": "7.1.1",
+            "children": [
+              {
+                "conta": "7.1.1.1",
+                "children": [
+                  {
+                    "conta": "7.1.1.1.01",
+                    "descricao": "Ativo",
+                    "codgReduzido": 721
+                  },
+                  {
+                    "conta": "7.1.1.1.02",
+                    "descricao": "(-) Passivo",
+                    "codgReduzido": 722
+                  }
+                ],
+                "descricao": "BALANÇO DE ABERTURA",
+                "codgReduzido": 720
+              },
+              {
+                "conta": "7.1.1.2",
+                "children": [
+                  {
+                    "conta": "7.1.1.2.01",
+                    "descricao": "Ativo",
+                    "codgReduzido": 724
+                  },
+                  {
+                    "conta": "7.1.1.2.01",
+                    "descricao": "(-) Passivo",
+                    "codgReduzido": 725
+                  }
+                ],
+                "descricao": "BALANÇO DE ENCERRAMENTO",
+                "codgReduzido": 723
+              }
+            ],
+            "descricao": "BALANÇO",
+            "codgReduzido": 719
+          },
+          {
+            "conta": "7.1.2",
+            "children": [
+              {
+                "conta": "7.1.2.1",
+                "children": [
+                  {
+                    "conta": "7.1.2.1.01",
+                    "descricao": "Resultado Final de Exercício",
+                    "codgReduzido": 728
+                  }
+                ],
+                "descricao": "RESULTADO DO EXERCÍCIO",
+                "codgReduzido": 727
+              }
+            ],
+            "descricao": "RESULTADO",
+            "codgReduzido": 726
+          }
+        ],
+        "descricao": "CONTAS DIVERSAS",
+        "codgReduzido": 718
+      }
+    ],
+    "descricao": "CONTAS DE APURAÇÃO",
+    "codgReduzido": 717
+  }
+]

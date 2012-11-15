@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0"
+	xmlns="http://java.sun.com/xml/ns/persistence">
+	<persistence-unit name="siscont">
+	
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+
+		<class>br.com.paulino.siscontweb.model.pojo.PlanoDeConta</class>
+		<class>br.com.paulino.siscontweb.model.pojo.NotaDeEntrada</class>
+		<class>br.com.paulino.siscontweb.model.pojo.NotaDeSaida</class>
+		<class>br.com.paulino.siscontweb.model.pojo.Caixa</class>
+		<class>br.com.paulino.siscontweb.model.pojo.ContaDeEntrada</class>
+		<class>br.com.paulino.siscontweb.model.pojo.ContaDeSaida</class>
+		<class>br.com.paulino.siscontweb.model.pojo.CaixaDeSaida</class>
+		<class>br.com.paulino.siscontweb.model.pojo.CaixaDeEntrada</class>
+		<class>br.com.paulino.siscontweb.model.pojo.CaixaDeSaida</class>
+		
+		<properties>
+			<!--  <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" /> -->
+
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
+			
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.format_sql" value="true" />
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+			
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/siscont" />
+			<property name="javax.persistence.jdbc.user" value="root" />
+			<property name="javax.persistence.jdbc.password" value="admin" />
+
+<!-- 			
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://mysql02.wasolucoes.com/wasolucoes1" />
+			<property name="javax.persistence.jdbc.user" value="wasolucoes1" />
+			<property name="javax.persistence.jdbc.password" value="everton@123" />
+ -->			
+			
+		</properties>
+
+	</persistence-unit>
+</persistence>
