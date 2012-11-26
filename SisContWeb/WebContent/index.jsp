@@ -8,7 +8,7 @@
 	<body>
 		<h1>SisCont</h1>
 		
-		<a href="treeViewConta.jsp">Plano de Conta</a>
+		<a href="treeViewConta.jsp">Plano de Conta</a><br/>
 		<a href="notaDeEntrada.jsp">Nota de Entrada</a>
 	</body>
 </html>

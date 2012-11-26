@@ -3,7 +3,6 @@ package br.com.paulino.siscontweb.controller;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.math.BigDecimal;
-import java.util.Calendar;
 import java.util.Date;
 
 import javax.servlet.ServletException;
@@ -131,7 +130,8 @@ public class NotaDeEntradaManter extends HttpServlet{
 	}
 
 	private void deletarNotas(HttpServletRequest req, HttpServletResponse resp) {
-		int nota = Integer.parseInt(req.getParameter("sequencial"));
+		String param = req.getParameter("sequencial");
+		int nota = Integer.parseInt(param);
 		
 		dao.getEntityManager().getTransaction().begin();
 		dao.deletaNota(nota);
